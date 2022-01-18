@@ -1,0 +1,34 @@
+.container{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container .li {
+    display: inline;
+}
+
+.container li a {
+    float: left;
+    padding: 0.4375rem 0.875rem;
+    margin: 0.75rem 0.2rem;
+    text-decoration: none;
+    border: 0.0625rem solid black;
+    border-radius: 1.25rem;
+    font-size: 0.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.container li {
+    display: inline;
+}
+
+.prevNext {
+     border: 0;
+    border-radius: 0;
+}
+
+

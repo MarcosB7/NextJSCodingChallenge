@@ -1,0 +1,87 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.card {
+    flex: 1 0 22%;
+    margin: 1rem;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border-radius: 20px;
+    background-color: hsla(49, 100%, 56%, 0.384);
+} 
+
+.description {
+    padding: 0 20px 20px;
+    text-align: center;
+}
+
+.description > button {
+    background: hsla(34, 100%, 50%, 0.651);
+    border: 0;
+    color: black;
+    padding: 10px;
+    width: 80%;
+    border-radius: 50px;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.typesDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.abilitiesDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.typesDiv > span, .abilitiesDiv > span {
+    flex: 1;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    background-color: hsla(0, 0%, 84%, 0.705);
+    margin: 8px;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+
+.typesDiv > p, .abilitiesDiv > p {
+    display: inline;
+    text-align: center;
+}
+
+.abilitiesTitle, .typesTitle {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.abilitiesTitle {
+    margin-top: 10px;
+}
+
+.pokemonName {
+    text-align: center;
+    font-family: monospace,sans-serif, Tahoma;
+    font-size: 2rem;
+    margin-bottom: 1.25rem;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.imageContainer img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
